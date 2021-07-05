@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .tomato-text{
     color: tomato;
 }
@@ -31,7 +34,8 @@ section{
 }
 #about-us{
     background-image: url(images/bg-about.png);
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat;      
+}
+.one-third{
+    width: 30%;
 }
