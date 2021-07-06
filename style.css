@@ -1,6 +1,12 @@
 body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+header img{
+    margin-bottom: 20px;
 }
 h1{
     font-size: 50px;
@@ -12,11 +18,11 @@ h2{
     color: tomato;
 }
 p{
-    font-size: 30px;
+    font-size: 20px;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;    
+    margin-bottom: 50px;    
 }
 .half-width{
     width: 50%;
@@ -54,9 +60,25 @@ p{
     border-radius: 20px;
     margin-top: 20px;
 }
-#neapolitan-pizza{
-
+#social-link{
+    display: flex;
+    width: 80%;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
 }
+.social-item{
+    width: 30%;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-weight: 700;
+}
+
+
 footer {
     background-color: gray;
     color:white;
